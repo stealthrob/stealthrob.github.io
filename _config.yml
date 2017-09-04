@@ -1,13 +1,12 @@
 title: Roberto Nieto Salgado
-author: GitHub User
-email: your-email@domain.com
+email: roberto.nieto.sal@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  
+  Blogsite to tell some things about me and also to post interesting things about IT that may 
+  help you ;).
 
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: RobertoNietoSal
+github_username:  stealthrob
 
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
