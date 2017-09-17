@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Hello World !"
+category: generic
 ---
 
 Hi! this is my first post using jekyll, think it is great. Although I haven´t finished to understand it, it seems like a great framework to blog. I love its integration with GitHub, I think that if you have some familiarity with git Jekyll is a great option to have a post, and if you are not already familiar with git, ¡This is a great way to begin to lear git !
