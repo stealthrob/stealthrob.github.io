@@ -4,18 +4,78 @@ title: Projects
 permalink: /projects/
 ---
 
-Hi, I will be showing some projects I have been working on.
+Here are some of the projects I've worked on that showcase my skills and experience in software development.
 
-1. Node.js Application with IBM Watson.
+<div class="project-card" markdown="1">
 
-	A fun and exciting internship project developed using Node.js to consume Watson API and enable a chatbot that helped Support Engineers to access information faster. The app was hosted in Bluemix (the previous name for IBM Cloud). I had the opportunity to play with some DevOps tools from the [Garage Method](https://www.ibm.com/devops/method/)  to achieve Continuous Integration and Continuous Delivery. 
+### IBM Watson Chatbot Application
 
-2. Robotino FESTO
-	
-	[Robotino](http://www.festo-didactic.com/int-en/services/robotino/?fbid=aW50LmVuLjU1Ny4xNy4zNC4xMTY4) is a robot developed by FESTO. The project I participated was the logistics challenge in which the objective was to simulate a production chain. Here I practiced Java programming.
+<p class="project-meta">Role: Developer | Timeline: Internship Project</p>
 
-3. Websites
+A fun and exciting internship project where I developed a chatbot using Node.js to consume the Watson API. This solution helped Support Engineers access information faster and more efficiently.
 
-	I have developed various websites using WordPress here I leave a link to some of them:
+**Key Achievements:**
+- Built chatbot integration with IBM Watson API
+- Deployed application on IBM Cloud (formerly Bluemix)
+- Implemented CI/CD pipeline using DevOps tools from IBM's [Garage Method](https://www.ibm.com/devops/method/)
+- Achieved continuous integration and continuous delivery
 
-	 * [Sitio Web Imagen Radiológica de Toluca](http://imagenradiologica.com.mx)
+<ul class="tech-stack">
+  <li class="tech-tag">Node.js</li>
+  <li class="tech-tag">IBM Watson</li>
+  <li class="tech-tag">IBM Cloud</li>
+  <li class="tech-tag">DevOps</li>
+  <li class="tech-tag">CI/CD</li>
+</ul>
+
+</div>
+
+<div class="project-card" markdown="1">
+
+### Robotino FESTO - Logistics Challenge
+
+<p class="project-meta">Role: Developer | Focus: Robotics & Automation</p>
+
+Participated in the logistics challenge using [Robotino](http://www.festo-didactic.com/int-en/services/robotino/?fbid=aW50LmVuLjU1Ny4xNy4zNC4xMTY4), a mobile robot platform developed by FESTO. The objective was to simulate a production chain environment and implement automated logistics solutions.
+
+**Key Achievements:**
+- Programmed robot navigation and task automation
+- Simulated production chain logistics
+- Applied object-oriented programming principles
+- Collaborated in a team environment
+
+<ul class="tech-stack">
+  <li class="tech-tag">Java</li>
+  <li class="tech-tag">Robotics</li>
+  <li class="tech-tag">Automation</li>
+  <li class="tech-tag">FESTO Robotino</li>
+</ul>
+
+</div>
+
+<div class="project-card" markdown="1">
+
+### WordPress Website Development
+
+<p class="project-meta">Role: Full-Stack Developer | Focus: Web Development</p>
+
+Developed and maintained multiple professional websites using WordPress, providing complete solutions from design to deployment.
+
+**Featured Project:**
+- [Imagen Radiológica de Toluca](http://imagenradiologica.com.mx) - Medical imaging center website
+
+**Key Skills:**
+- Custom WordPress theme development
+- Content management and optimization
+- Client collaboration and requirements gathering
+- Website maintenance and updates
+
+<ul class="tech-stack">
+  <li class="tech-tag">WordPress</li>
+  <li class="tech-tag">PHP</li>
+  <li class="tech-tag">MySQL</li>
+  <li class="tech-tag">HTML/CSS</li>
+  <li class="tech-tag">JavaScript</li>
+</ul>
+
+</div>
