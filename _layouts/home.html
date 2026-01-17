@@ -13,10 +13,19 @@ layout: default
       <li>
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
+        {% if post.category %}
+          <span class="post-category">{{ post.category }}</span>
+        {% endif %}
 
         <h2>
           <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </h2>
+
+        {% if post.excerpt %}
+          <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
+        {% endif %}
+
+        <a href="{{ post.url | relative_url }}" class="read-more">Read more →</a>
       </li>
     {% endfor %}
   </ul>
