@@ -40,3 +40,4 @@ exclude:
   - README.md
   - LICENSE.txt
   - minima.gemspec
+  - CLAUDE.md
