@@ -29,11 +29,7 @@ I'd love to hear from you! Whether you have a question, want to collaborate on a
 
 ## Other Ways to Connect
 
-- **Email:** [roberto.nieto.sal@gmail.com](mailto:roberto.nieto.sal@gmail.com)
+- **Email:** [roberto.nieto@proton.me](mailto:roberto.nieto@proton.me)
 - **GitHub:** [@stealthrob](https://github.com/stealthrob)
 - **Twitter:** [@Stealthrob1](https://twitter.com/Stealthrob1)
 - **LinkedIn:** [Roberto Nieto Salgado](https://www.linkedin.com/in/robertonietosalgado/)
-
----
-
-**Note:** To enable the contact form, you'll need to sign up for a free account at [Formspree](https://formspree.io/) and replace `YOUR_FORM_ID` with your actual form ID. Alternatively, you can use other form services like Netlify Forms or Google Forms.
