@@ -1,0 +1,48 @@
+---
+layout: default
+---
+<article class="post video-commentary" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+    <p class="post-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+        {{ page.date | date: date_format }}
+      </time>
+      {% if page.author %}
+        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
+      {% endif %}
+      <span class="post-category">• Video Commentary</span>
+    </p>
+  </header>
+
+  {% if page.video_id %}
+  <div class="video-embed-container">
+    <div class="video-wrapper">
+      <iframe
+        src="https://www.youtube.com/embed/{{ page.video_id }}"
+        title="{{ page.video_title | default: page.title | escape }}"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+      </iframe>
+    </div>
+    {% if page.video_title or page.video_channel %}
+    <p class="video-source">
+      {% if page.video_title %}<strong>{{ page.video_title | escape }}</strong>{% endif %}
+      {% if page.video_channel %} — {{ page.video_channel | escape }}{% endif %}
+    </p>
+    {% endif %}
+  </div>
+  {% endif %}
+
+  <div class="post-content commentary-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  {% if site.disqus.shortname %}
+    {% include disqus_comments.html %}
+  {% endif %}
+
+</article>

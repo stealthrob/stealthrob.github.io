@@ -1,0 +1,55 @@
+---
+layout: default
+title: Video Commentary
+permalink: /video-commentary/
+---
+
+<div class="home">
+
+  <div class="video-commentary-intro">
+    <h1 class="page-heading">Video Commentary</h1>
+    <p>Videos I've watched and wanted to comment on — podcasts, talks, and anything worth discussing.</p>
+  </div>
+
+  <ul class="post-list">
+    {% assign video_posts = site.posts | where: "layout", "video-commentary" %}
+    {% for post in video_posts %}
+      <li class="video-commentary-item">
+        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+
+        {% if post.video_id %}
+        <div class="video-thumbnail-link">
+          <a href="{{ post.url | relative_url }}">
+            <img
+              src="https://img.youtube.com/vi/{{ post.video_id }}/mqdefault.jpg"
+              alt="{{ post.video_title | default: post.title | escape }}"
+              class="video-thumbnail"
+              loading="lazy"
+            />
+          </a>
+        </div>
+        {% endif %}
+
+        <h2>
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        </h2>
+
+        {% if post.video_channel %}
+          <p class="video-channel-label">{{ post.video_channel | escape }}</p>
+        {% endif %}
+
+        {% if post.excerpt %}
+          <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
+        {% endif %}
+
+        <a href="{{ post.url | relative_url }}" class="read-more">Read commentary →</a>
+      </li>
+    {% endfor %}
+
+    {% if video_posts.size == 0 %}
+      <li><p>No video commentary posts yet. Check back soon.</p></li>
+    {% endif %}
+  </ul>
+
+</div>
