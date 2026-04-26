@@ -31,10 +31,6 @@ I focus on building robust and scalable APIs that power modern applications. My 
 
 </div>
 
-### Beyond Code
-
-When I'm not coding, I enjoy exploring new technologies, contributing to open-source projects, and sharing my knowledge through this blog. I believe in continuous learning and staying current with industry trends.
-
 ### Let's Connect
 
 Feel free to reach out if you'd like to discuss technology, collaborate on a project, or just have a conversation about software engineering. You can find me on [GitHub](https://github.com/stealthrob), [Twitter](https://twitter.com/Stealthrob1), and [LinkedIn](https://www.linkedin.com/in/robertonietosalgado/).
