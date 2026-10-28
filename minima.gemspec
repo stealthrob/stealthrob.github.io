@@ -26,15 +26,15 @@ Gem::Specification.new do |s|
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<jekyll>, ["~> 3.5"])
       s.add_runtime_dependency(%q<jekyll-seo-tag>, ["~> 2.1"])
-      s.add_development_dependency(%q<bundler>, ["~> 1.12"])
+      s.add_development_dependency(%q<bundler>, [">= 2.2.33"])
     else
       s.add_dependency(%q<jekyll>, ["~> 3.5"])
       s.add_dependency(%q<jekyll-seo-tag>, ["~> 2.1"])
-      s.add_dependency(%q<bundler>, ["~> 1.12"])
+      s.add_dependency(%q<bundler>, [">= 2.2.33"])
     end
   else
     s.add_dependency(%q<jekyll>, ["~> 3.5"])
     s.add_dependency(%q<jekyll-seo-tag>, ["~> 2.1"])
-    s.add_dependency(%q<bundler>, ["~> 1.12"])
+    s.add_dependency(%q<bundler>, [">= 2.2.33"])
   end
 end
